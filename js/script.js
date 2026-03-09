@@ -102,7 +102,7 @@ document.addEventListener("keydown", (e) => {
 
 
 (function () {
-  emailjs.init("FtpwsYD9AJjG-GPgx"); // Public Key
+  emailjs.init("bH4hOLj5-CycVlwA5"); // Public Key
 })();
 
 const form = document.getElementById("contactForm");
@@ -110,7 +110,7 @@ const form = document.getElementById("contactForm");
 form.addEventListener("submit", function (event) {
   event.preventDefault();
 
-  const serviceID = "V_SERVICE_ID"
+  const serviceID = "service_y860m5a"
   const userTemplateID = "V_USER_TEMPLATE_ID";     // User confirmation
   const leadTemplateID = "V_LEAD_TEMPLATE_ID";     // Admin / Lead
 
