@@ -111,8 +111,8 @@ form.addEventListener("submit", function (event) {
   event.preventDefault();
 
   const serviceID = "service_o8oib3r"
-  const userTemplateID = "template_g2333ja";     // User confirmation
-  const leadTemplateID = "V_LEAD_TEMPLATE_ID";     // Admin / Lead
+  const userTemplateID = "template_mmw3w9b";     // User confirmation
+  const leadTemplateID = "template_g2333ja";     // Admin / Lead
 
   const formData = {
     firstName: document.getElementById("firstName").value,
