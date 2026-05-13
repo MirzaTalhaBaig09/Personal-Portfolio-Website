@@ -110,8 +110,8 @@ const form = document.getElementById("contactForm");
 form.addEventListener("submit", function (event) {
   event.preventDefault();
 
-  const serviceID = "service_y860m5a"
-  const userTemplateID = "V_USER_TEMPLATE_ID";     // User confirmation
+  const serviceID = "service_o8oib3r"
+  const userTemplateID = "template_g2333ja";     // User confirmation
   const leadTemplateID = "V_LEAD_TEMPLATE_ID";     // Admin / Lead
 
   const formData = {
